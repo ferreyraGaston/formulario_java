@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-       
-        for (double y=0.1;y<1.0;y+=0.1)
-        System.out.println(y);
+       InputStreamReader CapturarTeclado= new InputStreamReader(System.in);
+       BufferedReader buffer = new BufferedReader(CapturarTeclado);
 
+        System.out.print("Ingresar el primer Numero= ");
+        String strEdad= buffer.readLine();
 
 
 
